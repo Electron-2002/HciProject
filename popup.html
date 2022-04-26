@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="/css/tailwind.output.css" rel="stylesheet" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lexend&display=swap"
+			rel="stylesheet"
+		/>
+		<title>HCI Project</title>
+		<script src="popup.js"></script>
+	</head>
+	<body>
+		<div
+			class="fixed top-0 w-full text-center text-white pt-1 tracking-wide color: #fe2a70"
+			style="font-size: 0.5rem"
+		>
+			Developed by:
+			<p style="color: #fe2a70">Satej Bidvai, Kanishq Khandelwal & Kunal Choudhary.</p>
+		</div>
+		<div class="px-10 py-4 flex flex-col justify-center bg-blue-dark" style="width: 300px">
+			<div>
+				<button
+					id="dark-mode"
+					class="mt-8 transition ease-in-out duration-200 hover:text-tt-bg hover:bg-pink rounded-md px-3 py-1 text-white font-semibold text-sm focus:outline-none"
+				>
+					Toggle Dark Mode
+				</button>
+				<p class="text-white text-[0.5rem]">Status: <span id="dark-mode-txt">OFF</span></p>
+			</div>
+		</div>
+	</body>
+</html>
